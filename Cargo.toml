@@ -1,0 +1,30 @@
+# This file is part of `iced_experimental` project. For the terms of use, please see the file
+# called `LICENSE-BSD-3-Clause` at the top level of the `iced_experimental` project's Git repository.
+
+[package]
+name = "iced_experimental-rizzen-yazston"
+version = "0.0.0"
+authors = ["Rizzen Yazston"]
+edition = "2024"
+rust-version = "1.87.0"
+description = "Experimental iced widgets."
+license = "BSD-3-Clause"
+readme = "README.asciidoc"
+repository = "https://github.com/rizzen-yazston/iced_experimental"
+keywords = ["gui", "ui", "graphics", "interface", "widgets"]
+categories = ["gui"]
+
+[features]
+# Specify any application feature defaults here.
+default = []
+
+[dependencies]
+iced_core = { path = "../contributor/iced/core" } # Keep in sync with iced
+iced_runtime = { path = "../contributor/iced/runtime" } # Keep in sync with iced
+iced = { path = "../contributor/iced" }
+
+# Optional dependencies
+# none
+
+# Testing dependencies
+# None

@@ -1,0 +1,10 @@
+= Changelog
+Rizzen Yazston
+
+== iced_experimental 0.1.0 (202?-??-??)
+
+* Fixing `iced` scrollable widget.
+
+== iced_experimental 0.0.0 (2025-06-21)
+
+* The `iced_experimental` project's Git repository initialised with license, changelog, README, `Cargo.toml` and `.gitignore`.
