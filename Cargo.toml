@@ -21,7 +21,9 @@ default = []
 [dependencies]
 iced_core = { path = "../contributor/iced/core" } # Keep in sync with iced
 iced_runtime = { path = "../contributor/iced/runtime" } # Keep in sync with iced
+iced_widget = { path = "../contributor/iced/widget" } # Keep in sync with iced
 iced = { path = "../contributor/iced" }
+log = "0.4"
 
 # Optional dependencies
 # none
