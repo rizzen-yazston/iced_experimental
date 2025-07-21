@@ -1,22 +1,38 @@
-= iced experimental
+= `{iced}` experimental
 Rizzen Yazston
 :iced-git: https://github.com/iced-rs/iced
 :iced: pass:q[*iced*]
 :iced_core: pass:q[*iced_core*]
 :iced_runtime: pass:q[*iced_runtime*]
 
-Welcome to the *iced experimental* project.
+Welcome to the *`{iced}` experimental* project.
 
 WARNING:: This crate is not intended for production use, as it contains experimental widgets.
 
-This repository contains current fixed `iced` widget (not yet merged or accepted), custom `iced` widgets, and experimental custom widgets.
+This repository contains current fixed `{iced}` widget (not yet merged or accepted), custom `{iced}` widgets, and experimental custom widgets.
 
-Widgets that are accepted into various `iced` crates will be removed from the repository. See the `CHANGELOG.asciidoc` for disappearing widgets to see where they have gone to, or simply deleted for failed experiments.
+Widgets that are accepted into various `{iced}` crates will be removed from the repository. See the `CHANGELOG.asciidoc` for disappearing widgets to find out where they have gone to, or simply deleted for being failed experiments.
 
-Depends on the following:
+== Dependencies
 
 * {iced-git}[{iced}]: either *master* branch, or local copy of _master_ branch with extra commits.
 
 * {iced-git}[{iced_core}] `core` directory: either *master* branch, or local copy of _master_ branch with extra commits.
 
 * {iced-git}[{iced_runtime}]: `runtime` directory: either *master* branch, or local copy of _master_ branch with extra commits.
+
+* {iced-git}[{iced_widget}]: `widget` directory: either *master* branch, or local copy of _master_ branch with extra commits.
+
+== Current widgets
+
+=== {iced} widgets
+
+* `Scrollable`: implements missing non-overlay scrollbars.
+
+=== Custom widgets
+
+* None.
+
+=== Experimental widgets
+
+* None.

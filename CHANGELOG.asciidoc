@@ -1,9 +1,9 @@
 = Changelog
 Rizzen Yazston
 
-== iced_experimental 0.1.0 (202?-??-??)
+== iced_experimental 0.1.0 (2025-07-21)
 
-* Fixing `iced` scrollable widget.
+* Fixing `iced` `Scrollable` widget to support non-overlay scrollbars with both directions being scrollable. Overlay scrollbars still functions as expected before the changes were made.
 
 == iced_experimental 0.0.0 (2025-06-21)
 
