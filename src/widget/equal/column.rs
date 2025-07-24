@@ -196,7 +196,7 @@ where
         }
     }
 
-    /// Sets the horizontal spacing _between_ elements.
+    /// Sets the vertical spacing _between_ elements.
     ///
     /// Custom margins per element do not exist in iced. You should use this
     /// method instead! While less flexible, it helps you keep spacing between

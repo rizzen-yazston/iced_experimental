@@ -418,7 +418,6 @@ where
                     state, event, layout, cursor, renderer, clipboard, shell, viewport,
                 )
             });
-        //.fold(event::Status::Ignored, event::Status::merge)
     }
 
     fn mouse_interaction(
