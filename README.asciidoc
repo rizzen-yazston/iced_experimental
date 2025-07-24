@@ -16,12 +16,6 @@ Widgets that are accepted into various `{iced}` crates will be removed from the 
 
 == Dependencies
 
-* {iced-git}[{iced}]: either *master* branch, or local copy of _master_ branch with extra commits.
-
-* {iced-git}[{iced_core}] `core` directory: either *master* branch, or local copy of _master_ branch with extra commits.
-
-* {iced-git}[{iced_runtime}]: `runtime` directory: either *master* branch, or local copy of _master_ branch with extra commits.
-
 * {iced-git}[{iced_widget}]: `widget` directory: either *master* branch, or local copy of _master_ branch with extra commits.
 
 == Current widgets

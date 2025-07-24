@@ -3,7 +3,7 @@
 
 [package]
 name = "iced_experimental-rizzen-yazston"
-version = "0.2.0"
+version = "0.2.1"
 authors = ["Rizzen Yazston"]
 edition = "2024"
 rust-version = "1.87.0"
@@ -19,14 +19,8 @@ categories = ["gui"]
 default = []
 
 [dependencies]
-iced_core = { git = "https://github.com/iced-rs/iced.git", branch = "master" } # Keep in sync with iced
-iced_runtime = { git = "https://github.com/iced-rs/iced.git", branch = "master" } # Keep in sync with iced
 iced_widget = { git = "https://github.com/iced-rs/iced.git", branch = "master" } # Keep in sync with iced
-iced = { git = "https://github.com/iced-rs/iced.git", branch = "master", features = [ "advanced" ] } # Keep in sync with iced
-#iced_core = { path = "../contributor/iced/core" } # Keep in sync with iced
-#iced_runtime = { path = "../contributor/iced/runtime" } # Keep in sync with iced
 #iced_widget = { path = "../contributor/iced/widget" } # Keep in sync with iced
-#iced = { path = "../contributor/iced", features = [ "advanced" ] }
 #log = "0.4"
 
 # Optional dependencies

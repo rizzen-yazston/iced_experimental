@@ -7,8 +7,7 @@ pub use scrollable::{Scrollable, Scrollbar};
 pub mod equal;
 pub use equal::{column::EqualWidthColumn, row::EqualHeightRow};
 
-use crate::core;
-use iced::Element;
+use crate::core::{self, Element};
 
 /// Creates a new [`Scrollable`] with the provided content.
 ///
