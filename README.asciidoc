@@ -4,6 +4,7 @@ Rizzen Yazston
 :iced: pass:q[*iced*]
 :iced_core: pass:q[*iced_core*]
 :iced_runtime: pass:q[*iced_runtime*]
+:iced_widget: pass:q[*iced_widget*]
 
 Welcome to the *`{iced}` experimental* project.
 
@@ -31,7 +32,9 @@ Widgets that are accepted into various `{iced}` crates will be removed from the 
 
 === Custom widgets
 
-* None.
+* `EqualHeightRow`: row with equal height widgets.
+
+* `EqualWidthColumn`: column with equal width widgets.
 
 === Experimental widgets
 

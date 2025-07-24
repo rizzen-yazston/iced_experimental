@@ -2,11 +2,12 @@
 // called `LICENSE-BSD-3-Clause` at the top level of the `iced_experimental` project's Git repository.
 
 pub mod scrollable;
-
 pub use scrollable::{Scrollable, Scrollbar};
 
-use crate::core;
+pub mod equal;
+pub use equal::{column::EqualWidthColumn, row::EqualHeightRow};
 
+use crate::core;
 use iced::Element;
 
 /// Creates a new [`Scrollable`] with the provided content.
