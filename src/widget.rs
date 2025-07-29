@@ -7,6 +7,15 @@ pub use scrollable::{Scrollable, Scrollbar};
 pub mod equal;
 pub use equal::{column::EqualWidthColumn, row::EqualHeightRow};
 
+pub mod grid;
+pub use grid::Grid;
+
+//
+//
+// ----- iced widgets helper functions from `helper.rs`
+//
+//
+
 use crate::core::{self, Element};
 
 /// Creates a new [`Scrollable`] with the provided content.

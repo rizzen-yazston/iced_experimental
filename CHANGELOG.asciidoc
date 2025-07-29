@@ -1,13 +1,17 @@
 = Changelog
 Rizzen Yazston
 
+== iced_experimental 0.3.0 (2025-??-??)
+
+* Moved `Grid` from the application, added spacing and padding to the widget, and updated documentation.
+
 == iced_experimental 0.2.1 (2025-07-24)
 
 * Simplified crate dependencies, with suggestions by Umberto Robina (on Discord).
 
 == iced_experimental 0.2.0 (2025-07-24)
 
-* Moved `EqualHeightRow` and `EqualWidthColumn` from application, and corrected some logic in the `layout()` function of both widgets, and updated documentation.
+* Moved `EqualHeightRow` and `EqualWidthColumn` from the application, and corrected some logic in the `layout()` function of both widgets, and updated documentation.
 
 == iced_experimental 0.1.0 (2025-07-21)
 

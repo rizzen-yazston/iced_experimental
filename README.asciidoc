@@ -30,6 +30,8 @@ Widgets that are accepted into various `{iced}` crates will be removed from the 
 
 * `EqualWidthColumn`: column with equal width widgets.
 
+* `Grid`: a grid widget of variable column widths and variable row heights.
+
 === Experimental widgets
 
 * None.
