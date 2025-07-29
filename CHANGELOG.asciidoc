@@ -1,7 +1,7 @@
 = Changelog
 Rizzen Yazston
 
-== iced_experimental 0.3.0 (2025-??-??)
+== iced_experimental 0.3.0 (2025-07-29)
 
 * Moved `Grid` from the application, added spacing and padding to the widget, and updated documentation.
 
