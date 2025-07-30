@@ -67,7 +67,7 @@ use iced_widget::{Space, core::Padding};
 /// # mod iced { pub mod widget { pub use iced_widget::*; } }
 /// # pub type State = ();
 /// # pub type Element<'a, Message> = iced_widget::core::Element<'a, Message, iced_widget::Theme, iced_widget::Renderer>;
-/// use iced::widget::{container};
+/// use iced::widget::container;
 /// use iced_experimental_rizzen_yazston::widget::Grid;
 ///
 /// #[derive(Clone)]

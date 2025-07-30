@@ -1,6 +1,10 @@
 = Changelog
 Rizzen Yazston
 
+== iced_experimental 0.4.0 (2025-07-??)
+
+* Moved `Cell` along with its style file from the application, added ability to alter the border color of change content cells, and updated documentation.
+
 == iced_experimental 0.3.0 (2025-07-29)
 
 * Moved `Grid` from the application, added spacing and padding to the widget, and updated documentation.

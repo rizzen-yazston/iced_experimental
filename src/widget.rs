@@ -10,6 +10,9 @@ pub use equal::{column::EqualWidthColumn, row::EqualHeightRow};
 pub mod grid;
 pub use grid::Grid;
 
+pub mod cell;
+pub use cell::cell::{Cell, cell};
+
 //
 //
 // ----- iced widgets helper functions from `helper.rs`

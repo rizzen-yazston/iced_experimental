@@ -32,6 +32,8 @@ Widgets that are accepted into various `{iced}` crates will be removed from the 
 
 * `Grid`: a grid widget of variable column widths and variable row heights.
 
+* `Cell`: a container widget, which may be clickable, resizable, align content, and alter border colour on content change.
+
 === Experimental widgets
 
 * None.
